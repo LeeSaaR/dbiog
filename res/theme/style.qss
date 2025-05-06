@@ -1,0 +1,120 @@
+QWidget[objectName="centralwidget"] {
+background-color: #202020;
+}
+
+QLineEdit {
+background-color: #303030;
+border: none;
+color: #e0e0e0;
+font-size: 12pt;
+}
+
+QLabel {
+font-size: 12pt;
+color: #e0e0e0;
+}
+
+QPushButton[accessibleDescription="filepath"] {
+background-color: #303030;
+border: none;
+color: #e0e0e0;
+font-size: 12pt;
+}
+
+QPushButton[accessibleDescription="filepath"]:hover {
+background-color: #353535;
+color: #e0e0e0;
+}
+
+QPushButton[accessibleDescription="spinbox"] {
+background-color: #505050;
+border: none;
+color: #e0e0e0;
+font-size: 16pt;
+}
+
+QPushButton[accessibleDescription="spinbox"]:hover {
+background-color: #707070;
+color: #e0e0e0;
+}
+
+QPushButton {
+background-color: #303030;
+color: #e0e0e0;
+border: none;
+font-size: 14pt;
+}
+
+QPushButton:hover {
+    background-color: #353535;
+}
+
+QPushButton::pressed {
+    background-color: #404040;
+}
+
+QWidget[objectName="frame_table"] {
+background-color: #202020;
+}
+
+QPushButton[accessibleDescription="primary_key"] {
+background-color: #202020;
+border: 1px solid #505050;
+color: #505050;
+font-size: 14pt;
+}
+
+QPushButton[accessibleDescription="primary_key"]:hover {
+background-color: #707070;
+border: 1px solid #a0a0a0;
+color: #e0e0e0;
+}
+
+QPushButton[accessibleDescription="primary_key"]:checked {
+background-color: #505050;
+border: 1px solid #a0a0a0;
+color: #e0e0e0;
+}
+
+QComboBox {
+background-color: #505050;
+color: #e0e0e0;
+}
+
+QComboBox {
+height: 30px;
+padding-left: 10px;
+background-color: #505050;
+border: 1px solid #e0e0e0;
+font-size: 12pt;
+color: #e0e0e0;
+selection-background-color: transparent;
+selection-color: #e0e0e0;
+}
+QComboBox:hover {
+background-color: #707070;
+}
+QComboBox::drop-down {
+subcontrol-origin: padding;
+subcontrol-position: top right;
+background-color: #505050;
+}
+QComboBox::drop-down:hover {
+background-color: #707070;
+focus:
+}
+QComboBox QAbstractItemView {
+background-color: #505050;
+border: 1px solid #e0e0e0;
+color: #e0e0e0;
+}
+
+QComboBox QAbstractItemView:item:hover {
+background-color: #707070;
+color: #e0e0e0;
+}
+
+QComboBox QAbstractItemView:item:focus {
+background-color: #707070;
+color: #e0e0e0;
+}

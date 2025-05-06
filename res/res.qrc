@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/">
+        <file>theme/style.qss</file>
+        <file>template/databasemodel.h</file>
+        <file>template/datalistrow.h</file>
+        <file>template/datarow.h</file>
+        <file>template/dbfactory.h</file>
+        <file>template/example-mod.json</file>
+        <file>template/module-database.cmake</file>
+        <file>template/dbio/datacolumn.cpp</file>
+        <file>template/dbio/datacolumn.h</file>
+        <file>template/dbio/datarow.cpp</file>
+        <file>template/dbio/datarow.h</file>
+        <file>template/dbio/datarowconverter.cpp</file>
+        <file>template/dbio/datarowconverter.h</file>
+        <file>template/dbio/datarowraw.cpp</file>
+        <file>template/dbio/datarowraw.h</file>
+        <file>template/dbio/datarowrawlist.cpp</file>
+        <file>template/dbio/datarowrawlist.h</file>
+        <file>template/dbio/dbio.cmake</file>
+        <file>template/dbio/dbio.cpp</file>
+        <file>template/dbio/dbio.h</file>
+        <file>template/dbio/dbioconnector.cpp</file>
+        <file>template/dbio/dbioconnector.h</file>
+        <file>template/dbio/dbioidgenerator.cpp</file>
+        <file>template/dbio/dbioidgenerator.h</file>
+        <file>template/dbio/dbiomodel.cpp</file>
+        <file>template/dbio/dbiomodel.h</file>
+        <file>template/dbio/LICENSE.txt</file>
+        <file>template/dbio/README.md</file>
+    </qresource>
+</RCC>

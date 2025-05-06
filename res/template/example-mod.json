@@ -1,0 +1,25 @@
+{
+    "customer": {
+        "id_form": "CNCNCN",
+        "primary_key": { "id": "TEXT" },
+        "columns": [
+            {"name": "TEXT"},
+            {"email": "TEXT"}
+        ],
+        "dependencies": [
+            {"orders": "id_customer"}
+        ]
+    },
+    "orders": {
+        "id_form": "CNCNCN",
+        "primary_key": { "id": "TEXT" },
+        "columns": [
+            {"id_customer": "TEXT"},
+            {"date": "DATE"},
+            {"item_count": "INT"},
+            {"total": "DOUBLE"},
+            {"is_complete": "BOOL"}
+        ],
+        "dependencies": []
+    }
+}
